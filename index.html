@@ -28,12 +28,16 @@
           >Web<span class="logo-header" lang="en">Stydio</span>
         </a>
         <nav class="navigtion">
-         <ul class="navigtion-list">
+          <ul class="navigtion-list">
             <li class="navigtion-item">
-              <a class="navigtion-link link active current" href="./index.html">Студия</a>
+              <a class="navigtion-link link active current" href="./index.html"
+                >Студия</a
+              >
             </li>
             <li class="navigtion-item">
-              <a class="navigtion-link link" href="./portfolio.html">Портфолио</a>
+              <a class="navigtion-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="navigtion-item">
               <a class="navigtion-link link" href="">Контакты</a>
@@ -75,6 +79,41 @@
         <!-- Модальное окно -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <form action="">
+              <b>Оставьте свои данные, мы вам перезвоним</b>
+              <label for="">
+                Имя
+              <input type="text" name="name"/>
+              <svg class="" width="12" height="12">
+                <use href="./images/sprite.svg#icon-Name"></use> 
+              </svg>
+              </label>
+              <label for="">
+                Телефон
+              <input type="tel" name="tel" id="" />
+              <svg class="" width="12" height="12">
+                <use href="./images/sprite.svg#icon-Tel"></use> 
+              </svg>
+              </label>
+              <label for="">
+                Почта
+              <input type="email" name="email" id="" />
+              <svg class="" width="12" height="12">
+                <use href="./images/sprite.svg#icon-Email"></use> 
+              </svg>
+              </label>
+              <label for="">
+                Комментарий
+              <textarea name="comment" id="" rows="10">Ввести текст</textarea>
+              </label>
+              <label for="">
+              <input type="checkbox" name="policy" >
+              Соглашаюсь с рассылкой и принимаю Условия договора
+              </label>
+
+
+              <button type="submit" class="submit">Отправить</button>
+            </form>
             <button class="close" data-modal-close>
               <svg class="close-icons" width="18" height="18">
                 <use href="./images/sprite.svg#icon-close"></use>
