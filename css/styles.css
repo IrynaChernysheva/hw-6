@@ -368,10 +368,10 @@ img {
 }
 /* Modal form */
 
-.form-header {
-    margin-bottom: 12px;
-}
+
 .modal-form {
+    display: block;
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -467,6 +467,9 @@ img {
     align-items: center;
     justify-content: center;
     
+}
+.form-checkbox-icon:focus .form-checkbox {
+    border: 1px solid var(--brend-color)
 }
 .form-checkbox-icon {
     display: flex;
